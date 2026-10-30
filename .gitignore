@@ -1,0 +1,54 @@
+# Python environments and generated files
+.ngotify/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+.aws/
+
+# Editor, OS, and temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+~$*
+
+# Generated requisition exports
+/requisitions.csv
+/word_doc/purchase_requisitions.csv
+
+# Excel workbooks, templates, and add-ins (case insensitive)
+*.[xX][lL][sS]
+*.[xX][lL][sS][xXmMbB]
+*.[xX][lL][tT]
+*.[xX][lL][tT][xXmM]
+*.[xX][lL][aA]
+*.[xX][lL][aA][mM]
+
+# Word documents and templates (case insensitive)
+*.[dD][oO][cC]
+*.[dD][oO][cC][xXmM]
+*.[dD][oO][tT]
+*.[dD][oO][tT][xXmM]
